@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(218, 198, 198);
+}
+
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    position: relative;
+    background: url('..//img/bg.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    margin-bottom: 100px;
+
+}
+
+.header::after {
+    position: absolute;
+    content: '';
+    background: linear-gradient(0deg, rgba(23, 16, 16, 0.6), rgb(23 16 16 / 79%));
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.header__content {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__title {
+    color: #fff;
+    font-size: 80px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.header__subtitle {
+    color: #fff;
+    font-size: 30px;
+}
+
+.character {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.character h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.character__list {
+    list-style: none;
+}
+
+.character__list li {
+    margin-bottom: 5px;
+}
+
+.character__list li>a {
+    color: #000000;
+    font-size: 30px;
+}
+
+.character__list :hover {
+    color: #fff;
+    background: #000;
+}
+
+.bender__content,
+.lila__content,
+.frai__content,
+.emi__content {
+    margin-top: 50px;
+}
+
+.bender__content h1,
+.lila__content h1,
+.frai__content h1,
+.emi__content h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.bender__inner,
+.lila__inner,
+.emi__inner,
+.frai__inner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bender__inner p,
+.lila__inner p,
+.emi__inner p,
+.frai__inner p {
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+}

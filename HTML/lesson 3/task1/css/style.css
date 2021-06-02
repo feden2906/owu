@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+h1,
+h2,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.header {
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    z-index: 1;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px 0;
+
+}
+
+.header__logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav__link {
+    margin-left: 40px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+.intro {
+    padding-top: 130px;
+}
+
+.intro img {
+    display: block;
+    margin: 0 auto;
+}
+
+.summary {
+    padding: 40px 0 100px;
+    background: #fed966;
+}
+
+.action {
+    height: 520px;
+    background: #f3f7f8;
+    position: relative;
+}
+
+.action img {
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.action p {
+    padding: 0 50px 20px;
+    position: absolute;
+    bottom: 0;
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.information__inner {
+    display: flex;
+}
+
+.information__content-inner {
+    display: flex;
+}
+
+
+.information__content-elemets p {
+    padding: 0 10px;
+    box-sizing: border-box;
+
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.gallery {
+    margin-top: 30px;
+}
+
+.gallery__inner {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery__inner img {
+    padding: 0 10px;
+}

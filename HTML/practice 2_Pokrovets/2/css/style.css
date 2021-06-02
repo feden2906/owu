@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.app {
+    margin: 100px 0;
+}
+
+.app__block-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.app__block-text {
+    width: calc((568 / 1102)*100%);
+    height: 100%;
+
+    margin: auto 0;
+}
+
+.app__block-text_subtitle {
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+
+    margin-bottom: 10px;
+}
+
+.app__block-text_title {
+    letter-spacing: 0.2px;
+    color: #252B42;
+
+    margin-bottom: 30px;
+}
+
+.app__block-text_paragraph {
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+
+.order {
+    position: relative;
+
+    background: url('..//img/order.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    z-index: 1;
+    margin-bottom: 115px;
+}
+
+.order::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+
+    background: linear-gradient(0deg, rgba(37, 43, 66, 0.4), rgba(37, 43, 66, 0.4));
+}
+
+.order__inner {
+    padding: 137px 0 130px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.order__title {
+    font-size: 80px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+
+    margin-bottom: 13px;
+}
+
+.order__text {
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
+    margin-bottom: 62px;
+}
+
+.order__btn {
+    display: flex;
+    justify-content: center;
+
+}
+
+.order__btn-link {
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+
+    border: none;
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    padding: 18px 31px;
+    border-radius: 10px;
+
+}
+
+.order__btn-link:hover {
+    border: 1px solid #FFFFFF;
+
+    padding: 16px 45px;
+    background: transparent;
+}
+
+.order__btn-link:first-child {
+    margin-right: 16px;
+}
+
+.benefits__inner {
+    display: flex;
+    text-align: center;
+}
+
+.benefits {
+    margin-bottom: 100px;
+}
+
+.benefits__elemets {
+    margin-left: 30px;
+    padding: 20px 40px;
+
+    background: rgb(160, 137, 137);
+    border-radius: 10px;
+}
+
+.benefits__elemets img {
+    margin-bottom: 10px;
+}
+
+.benefits__elemets:first-child {
+    margin-left: 0;
+}

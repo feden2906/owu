@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.btn {
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 60px;
+    border-radius: 8px;
+}
+
+.intro {
+    position: relative;
+    padding: 100px 0;
+}
+
+.intro__inner {
+    display: flex;
+    column-gap: 210px;
+}
+
+.intro__content {
+    max-width: 641px;
+}
+
+.intro__content h2 {
+    font-weight: 900;
+    font-size: 25px;
+    text-transform: uppercase;
+
+    color: #ff9638;
+}
+
+.intro__content h1 {
+    margin: 50px 0 60px;
+
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+.blue {
+    color: #3298F2;
+}
+
+.color-dark {
+    color: #333333;
+}
+
+.bold {
+    font-weight: 900 !important;
+}
+
+.intro__content-text {
+    margin-bottom: 80px;
+}
+
+.intro__content-text p {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.intro__content-text p:last-child {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.intro__btn {
+    background-color: #ff9638;
+
+    font-weight: 900;
+}
+
+.intro__slogan p {
+    font-weight: 900;
+    font-size: 174px;
+    text-transform: uppercase;
+}
+
+.intro__slogan p:last-child {
+    font-size: 71px;
+}
+
+.intro__slogan p:nth-child(even) {
+    -webkit-text-stroke: 2px #3298F2;
+    color: transparent;
+}
+
+.start {
+    width: 95px;
+    height: 95px;
+    bottom: 0;
+    left: 45%;
+}
+
+.start__intro {
+    width: 75px;
+    height: 75px;
+
+}
+
+.circle {
+    border: 2px solid #dfe207;
+    border-radius: 100%;
+    position: absolute;
+    content: '';
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.strat__intro-in {
+    width: 65px;
+    height: 65px;
+
+    background: rgb(99, 99, 99);
+    border: 2px solid #ff9638;
+}
+
+.strat__intro-in i {
+    font-size: 40px;
+    color: #fff;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

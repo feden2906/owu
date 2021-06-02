@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: none;
+}
+
+/* header */
+.header {
+    background: #000;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px 0;
+}
+
+.header__menu {
+    margin-right: 30px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav__link {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+.nav__link:first-child {
+    margin-left: 0px;
+}
+
+
+.content__inner {
+    display: flex;
+    margin-top: 50px;
+}
+
+.content__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content__text,
+.content__inner img {
+    width: 50%;
+}
+
+
+.content__text-title {
+    font-family: 'Coming Soon', cursive;
+    font-size: 80px;
+    font-weight: 900;
+    font-style: normal;
+
+    margin-bottom: 20px;
+}
+
+.content__text-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.content__text-slogan {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+/* header */
